@@ -1,4 +1,4 @@
-# Car Rental Bus System Simulation
+# Shuttle Bus System Simulation
 
 Simulasi sistem shuttle bus untuk rental mobil dengan rute counterclockwise menggunakan discrete event simulation (DES).
 
@@ -32,12 +32,12 @@ Simulasi sistem shuttle bus untuk rental mobil dengan rute counterclockwise meng
 ## Cara Compile & Run
 
 ```bash
-gcc -o car_rental.exe car_rental.c simlib.c -lm
-./car_rental.exe
-cat car_rental.out
+gcc -o shuttle_bus.exe shuttle_bus.c simlib.c -lm
+./shuttle_bus.exe
+cat shuttle_bus.out
 ```
 
-## Format Input (car_rental.in)
+## Format Input (shuttle_bus.in)
 
 ```
 14 10 24             # Arrival rates (LOC1, LOC2, LOC3) per hour

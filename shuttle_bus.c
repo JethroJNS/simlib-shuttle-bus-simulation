@@ -67,10 +67,10 @@ int main(void) {
     int i;
 
     // Buka file input dan output
-    infile = fopen("car_rental.in", "r");
-    outfile = fopen("car_rental.out", "w");
+    infile = fopen("shuttle_bus.in", "r");
+    outfile = fopen("shuttle_bus.out", "w");
     if (infile == NULL) {
-        printf("Tidak bisa membuka car_rental.in\n");
+        printf("Tidak bisa membuka shuttle_bus.in\n");
         return 1;
     }
 
